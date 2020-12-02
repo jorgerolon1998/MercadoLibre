@@ -59,8 +59,11 @@ _________________________________________________
 ## Herramientas necesarias:
 
 GIT
+
 Maven
+
 Java (1.8)
+
 Eclipse (opcional)
 
 ## Descargando el repositorio:

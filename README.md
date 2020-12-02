@@ -1,4 +1,4 @@
-# Api Rest Detector de Mutantes
+# Challenge: Api Rest Detector de Mutantes
 
 API Rest para detectar si un humano es mutante o no en base a su DNA. 
 
@@ -14,7 +14,7 @@ Recibe como parámetro una secuencia de ADN, representada por un array de string
 
 - **Method:** POST
 
-- **Body Params:** JSON representando una secuencia de ADN en el siguiente formato donde [string] es cada secuencia:
+- **Body:** JSON ADN:
 
   * Recordar que cada string debe tener la misma longitud que el array al que pertenece es decir que la secuencia solo puede ser NxN. Además la secuencia solo puede contener los siguentes caracteres; A, T, C, G. Caso contrario fallará y se vera en el detalle la razon del problema
 
@@ -51,6 +51,33 @@ Devuelve estadísticas en base a las secuencias de ADN que han sido consultadas.
     "ratio": [number]
   }
   ```
+  **Donde [number] es el valor de los resultados**
 _________________________________________________
+
+## Uso de Proyecto, detalles
+
+## Herramientas necesarias:
+
+GIT
+Maven
+Java (1.8)
+Eclipse (opcional)
+
+## Descargando el repositorio:
+
+git clone https://github.com/jorgerolon1998/MercadoLibre.git
+
+## Para ejecutar la aplicacion utilizando Maven:
+
+mvn clean install (instalar dependencias)
+
+mvn spring-boot:run (levantar aplicacion, revisar que el puerto 8080 no este siendo usado)
+
+Proyecto:
+
+Es una api rest desarrollada con spring boot. Tiene su base de datos embebida.
+
+## Link de collection Postman https://www.getpostman.com/collections/e7335d9ce8205e5db3b2
+
 
 

@@ -1,8 +1,6 @@
+
 language: java
-
-cache:
- directories:
-   - $HOME/.m2
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+jdk:
+  - oraclejdk8
+script:
+  - mvn -e -DTRAVIS_JOB_ID=$TRAVIS_JOB_ID clean install jacoco:report coveralls:report  

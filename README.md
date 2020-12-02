@@ -54,7 +54,7 @@ Devuelve estadísticas en base a las secuencias de ADN que han sido consultadas.
   **Donde [number] es el valor de los resultados**
 _________________________________________________
 
-## Uso de Proyecto, detalles
+## Uso de Proyecto Para Colaboradores
 
 ## Herramientas necesarias:
 

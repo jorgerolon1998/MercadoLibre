@@ -1,15 +1,12 @@
-# Detector de Mutantes
-[![Build Status](https://travis-ci.org/jorgerolon1998/MercadoLibre.svg?branch=master)](https://travis-ci.org/jorgerolon1998/MercadoLibre) [![Coverage Status](https://coveralls.io/repos/github/jorgerolon1998/MercadoLibre/badge.svg)](https://coveralls.io/github/jorgerolon1998/MercadoLibre)
+# Api Rest Detector de Mutantes
 
-API Rest cuya principal funcionalidad consiste en detectar si un humano es mutante, en función de su ADN. 
+API Rest para detectar si un humano es mutante o no en base a su DNA. 
 
 _________________________________________________
 
-## Instrucciones de uso
+## Uso de API
 
-La API consta de dos servicios:
-
-### Servicio Mutant: 
+### Servicio que detecta si es un mutante o no: 
 
 Recibe como parámetro una secuencia de ADN, representada por un array de strings, y responde si la misma pertenece, o no, a un mutante. Se almacena la secuencia consultada en una base de datos, con el propósito de obtener estadísticas. 
 
@@ -17,7 +14,10 @@ Recibe como parámetro una secuencia de ADN, representada por un array de string
 
 - **Method:** POST
 
-- **Body Params:** JSON representando una secuencia de ADN en el siguiente formato:
+- **Body Params:** JSON representando una secuencia de ADN en el siguiente formato donde [string] es cada secuencia:
+
+  * Recordar que cada string debe tener la misma longitud que el array al que pertenece es decir que la secuencia solo puede ser NxN. Además la secuencia solo puede contener los siguentes caracteres; A, T, C, G. Caso contrario fallará y se vera en el detalle la razon del problema
+
 
   ```javascript
   {"dna": [[string], [string], [string], ...]}
@@ -26,17 +26,15 @@ Recibe como parámetro una secuencia de ADN, representada por un array de string
 
   ```javascript
   {"dna":["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]}
-  ```
-  Cada string debe tener la misma longitud que el array al que pertenece. La secuencia solo puede contener los siguentes caracteres; A, T, C, G.
- 
- - **Posibles respuestas:** 
+  ``` 
+ - **Respuestas Posibles:** 
   
     - 200: El humano es mutante. 
     - 403: El humano no es mutante.
     - 400: Input incorrecto. 
     
 
-### Servicio Stats:
+### Servicio que devuelve la estadisticas de mutantes:
 
 Devuelve estadísticas en base a las secuencias de ADN que han sido consultadas. 
 
@@ -54,3 +52,5 @@ Devuelve estadísticas en base a las secuencias de ADN que han sido consultadas.
   }
   ```
 _________________________________________________
+
+

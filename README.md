@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/jorgerolon1998/MercadoLibre/branch/master/graph/badge.svg)](https://codecov.io/gh/jorgerolon1998/MercadoLibre)
 # Challenge: Api Rest Detector de Mutantes
 
 API Rest para detectar si un humano es mutante o no en base a su DNA. 

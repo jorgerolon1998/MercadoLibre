@@ -91,7 +91,7 @@ Link de collection Postman https://www.getpostman.com/collections/e7335d9ce8205e
 
 _________________________________________________
 
-### Arquitectura de la Aplicacion:
+### Diagrama de la Aplicacion:
 
 
 ![alt text](https://1.bp.blogspot.com/-tSIfrlIq2a8/XoWqijIVEAI/AAAAAAAAHnw/EHc17X7sAUgYEsa29iROWty1Vd9f5XFTwCLcBGAsYHQ/s1600/springboot-crud-rest-api.png)

@@ -80,7 +80,7 @@ Proyecto:
 
 Es una api rest desarrollada con spring boot. Tiene su base de datos embebida.
 
-## Link de collection Postman https://www.getpostman.com/collections/e7335d9ce8205e5db3b2
+Link de collection Postman https://www.getpostman.com/collections/e7335d9ce8205e5db3b2
 
 
 

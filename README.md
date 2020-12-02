@@ -89,4 +89,32 @@ Es una api rest desarrollada con spring boot. Tiene su base de datos embebida.
 Link de collection Postman https://www.getpostman.com/collections/e7335d9ce8205e5db3b2
 
 
+_________________________________________________
+
+### Arquitectura de la Aplicacion:
+
+
+![alt text](https://1.bp.blogspot.com/-tSIfrlIq2a8/XoWqijIVEAI/AAAAAAAAHnw/EHc17X7sAUgYEsa29iROWty1Vd9f5XFTwCLcBGAsYHQ/s1600/springboot-crud-rest-api.png)
+
+
+### Tecnologias Usadas:
+
+Spring Boot
+
+JDK 1.8
+
+Spring Framework
+
+Jpa
+
+Maven
+
+H2
+
+Jacoco
+
+Junit
+
+
+
 

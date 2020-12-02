@@ -3,6 +3,8 @@
 
 API Rest para detectar si un humano es mutante o no en base a su DNA. 
 
+![alt text](https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/03/magneto.jpg?itok=_9OggBiS)
+
 _________________________________________________
 
 ## Uso de API

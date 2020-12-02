@@ -9,11 +9,14 @@ _________________________________________________
 
 ## Uso de API
 
+Link de collection Postman : https://www.getpostman.com/collections/fd24ac8a7834ffcde7a1 
+
+
 ### Servicio que detecta si es un mutante o no: 
 
 Recibe como parámetro una secuencia de ADN, representada por un array de strings, y responde si la misma pertenece, o no, a un mutante. Se almacena la secuencia consultada en una base de datos, con el propósito de obtener estadísticas. 
 
-- **URL:**
+- **URL:*18.230.192.81:8080/mutant*
 
 - **Method:** POST
 
@@ -41,7 +44,7 @@ Recibe como parámetro una secuencia de ADN, representada por un array de string
 
 Devuelve estadísticas en base a las secuencias de ADN que han sido consultadas. 
 
-- **URL:**
+- **URL:*18.230.192.81:8080/stats*
 
 - **Method:** GET
 
